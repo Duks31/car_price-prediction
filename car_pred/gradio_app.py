@@ -1,3 +1,8 @@
+'''
+Gradio app for Car Price Prediction API
+
+'''
+
 import pandas as pd
 import gradio as gr
 import warnings
@@ -121,4 +126,4 @@ with gr.Blocks() as interface:
         outputs=predicted_price,
     )
 
-interface.launch()
+interface.launch(server_name="0.0.0.0", server_port=7860)

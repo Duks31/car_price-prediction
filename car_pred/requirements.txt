@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gradio
+pandas
+joblib
+requests
+pydantic
+scikit-learn
