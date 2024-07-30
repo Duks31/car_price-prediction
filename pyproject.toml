@@ -7,8 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-scrapy = "^2.11.2"
+uvicorn = "^0.30.3"
+requests = "^2.32.3"
+gradio = "^4.39.0"
+joblib = "^1.4.2"
+scikit-learn = "^1.5.1"
+poetry-plugin-export = "^1.8.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
