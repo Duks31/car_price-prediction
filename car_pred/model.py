@@ -31,11 +31,11 @@ class CarPriceModel:
 
     def __init__(self):
         self.data = pd.read_csv("data/car_data.csv")
-        self.model_fpath_ = "model/car_prediction_model.pkl"
+        self.model_fpath_ = "model/car_prediction_model.pickle"
 
         try:
             self.model = joblib.load(self.model_fpath_)
-        except Exception as e:
+        except Exception:
             self.model = self.train_model()
             joblib.dump(self.model, self.model_fpath_)
 
