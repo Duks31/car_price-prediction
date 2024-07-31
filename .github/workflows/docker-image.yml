@@ -33,10 +33,10 @@ jobs:
       run: echo "TAG=$(date +%s)" >> $GITHUB_ENV
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag chidubem/car-pred_app:${{ env.TAG }}
+      run: docker build . --file Dockerfile --tag chidubem/car_pred-app:${{ env.TAG }}
 
     - name: Push the Docker image
-      run: docker push chidubem/car-pred_app:${{ env.TAG }}
+      run: docker push chidubem/car_pred-app:${{ env.TAG }}
 
     - name: Log out from Docker Hub
       run: docker logout
