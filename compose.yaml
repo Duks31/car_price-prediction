@@ -2,9 +2,11 @@ version: '3.9'
 
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+
+    image: chidubem/car_pred-app:latest
+
     ports:
       - "8000:8000"
       - "7860:7860"
+
+    restart: unless-stopped
