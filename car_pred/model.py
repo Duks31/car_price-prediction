@@ -35,7 +35,7 @@ class CarPriceModel:
 
         try:
             self.model = joblib.load(self.model_fpath_)
-        except Exception as e:
+        except Exception:
             self.model = self.train_model()
             joblib.dump(self.model, self.model_fpath_)
 
