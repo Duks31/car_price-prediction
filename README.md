@@ -1,5 +1,7 @@
 # Car Price prediction Project
 
+https://github.com/user-attachments/assets/11dd37c1-5e6a-46e9-a297-646f11a7c7d7
+
 This repository contains the entire journey of building a car price prediction model, from data scraping to deployment using modern tools and practices.
 
 ![car_pred](car-pred-workflow.png)
@@ -127,7 +129,7 @@ curl -o docker-compose.yml https://raw.githubusercontent.com/Duks31/car_price-pr
 docker-compose up --build
 ```
 
-#### Linux
+#### Linux/macOS
 ```sh
 git clone https://github.com/Duks31/car_price-prediction
 cd car_price-prediction
