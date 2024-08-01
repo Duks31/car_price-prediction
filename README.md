@@ -3,6 +3,7 @@
 https://github.com/user-attachments/assets/11dd37c1-5e6a-46e9-a297-646f11a7c7d7
 
 This repository contains the entire journey of building a car price prediction model, from data scraping to deployment using modern tools and practices.
+check out full explanation here: https://medium.com/@chidubemndukwe/ml-from-data-scraping-to-deployment-fa7ddc5fab5c
 
 ![car_pred](car-pred-workflow.png)
 
