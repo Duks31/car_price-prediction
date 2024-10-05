@@ -76,11 +76,6 @@ car_pred_project
 │   ├───notebooks
 │   │       import_data.ipynb
 │   │       main.ipynb
-│   │
-│   └───__pycache__
-│           app.cpython-311.pyc
-│           main.cpython-311.pyc
-│           model.cpython-311.pyc
 │
 └───tests
         __init__.py
