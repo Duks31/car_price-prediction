@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "car-pred"
 version = "0.1.0"
-description = ""
+description = "Car price Predictor"
 authors = ["Duks31 <chidubemjan31@gmail.com>"]
 readme = "README.md"
 
